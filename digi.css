@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2fdff;
+}
+.vid {
+    position: absolute;
+    width: 100%;    
+    z-index: -1;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('AeonikTRIAL-Regular.otf');
+}
+.nav_dad {
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+    background-color: #000;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 580px;
+}
+
+.nav_box1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav_box1 p {
+    padding: 4px 16px;
+    color: #F8F8F8;
+    font-family: 'Aeonik';
+    font-size: 18px;
+}
+
+.nav_box2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav_box2 p {
+    padding: 4px 16px;
+    color: #F8F8F8;
+    font-family: 'Aeonik';
+    font-size: 18px;
+}
+
+.nav_box2 button {  
+    padding: 10px;
+    background: rgb(228,228,228);
+    background: linear-gradient(0deg, rgba(228,228,228,1) 32%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    font-size: 18px;
+    font-family: 'Aeonik';
+    border: none;
+    border-radius: 3px;
+}
+
+.main {
+    width: 1000px;
+    padding-top: 200px;
+}
+
+.inf {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.img1 {
+    width: 150px;
+}
+
+.img2 {
+    width: 240px
+}
+
+.part{
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Aeonik';
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.award {
+    width: 60%;
+    position: relative;
+    color: #c5c5c5;
+    font-family: 'Aeonik';
+    font-size: 18px;
+}
+
+.award::after {
+    position: absolute;
+    content: "";
+    display: inline-block;  
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 0.1px;
+    bottom: 5px;
+    right: -270px;
+}
+
+.awardplcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact {
+    position: relative;
+    top: 10px;
+    font-family: 'Aeonik';
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
+.slide_dad {
+    overflow-x: hidden;
+    margin-bottom: 200px;
+}
+
+.slider {
+    animation: slider linear infinite 200s;
+    color: #fff;
+    font-size: 50px;
+    white-space: nowrap;
+    font-family: 'Aeonik';
+    display: flex;
+    gap: 100px;
+}
+
+@keyframes slider {
+     0%{
+        transform: translateX(100%);
+    }
+     100%{
+        transform: translateX(-520%);
+    }
+}
+
+.with {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.with p {
+    width: 50%;
+    padding-left: 50px;
+    font-family: 'Aeonik';
+    font-weight: 600;
+    color: #000;
+    font-size: 50px;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.web {
+    width: 90%;
+    color: #000;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Aeonik';
+    margin-bottom: 50px;
+}
+
+ol {
+    margin-bottom: 20px;
+}
+
+ol li {
+    position: relative;
+    top: 0;
+    left: 20px;
+    font-size: 19px;
+    font-family: 'Aeonik';
+    color: #535353;
+}
+
+.check_1 {
+    font-size: 19px;
+    font-family: 'Aeonik';
+    color: #535353;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.look {
+    display: flex;
+    align-items: center;
+}
+
+.look i {
+    position: relative;
+    top: 3px;
+    left: 0;
+    font-size: 20px;
+}
+
+.look p{
+    font-size: 19px;
+    font-weight: 900;
+    font-family: 'Aeonik';
+}
+
+.figma {
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
